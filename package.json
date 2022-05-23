@@ -1,9 +1,9 @@
 {
-  "name": "appwrite",
-  "homepage": "https://appwrite.io/support",
+  "name": "@rekamarket/appwrite-reka-fork",
   "description": "Appwrite is an open-source self-hosted backend server that abstract and simplify complex and repetitive development tasks behind a very simple REST API",
   "version": "8.0.1",
   "license": "BSD-3-Clause",
+  "private": "true",
   "main": "dist/cjs/sdk.js",
   "exports": {
     ".": {
@@ -14,10 +14,6 @@
   },
   "module": "dist/esm/sdk.js",
   "types": "types/sdk.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/appwrite/sdk-for-web"
-  },
   "scripts": {
     "build": "npm run build:types && npm run build:libs",
     "build:types": "tsc --declaration --emitDeclarationOnly --outDir types",
@@ -34,7 +30,5 @@
   "dependencies": {
     "cross-fetch": "3.1.5",
     "isomorphic-form-data": "2.0.0"
-  },
-  "jsdelivr": "dist/iife/sdk.js",
-  "unpkg": "dist/iife/sdk.js"
+  }
 }
