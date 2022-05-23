@@ -1092,7 +1092,7 @@ class Appwrite {
         let options: RequestInit = {
             method,
             headers,
-            credentials: 'include'
+            //credentials: 'include'
         };
 
         if (typeof window !== 'undefined' && window.localStorage) {
